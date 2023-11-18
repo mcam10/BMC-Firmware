@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  turingpi.local:
+    build: .
+    hostname: turingpi.local
+    volumes: 
+      - ../:/bmc-firmware
+    ports:
+      - "8000:8000"

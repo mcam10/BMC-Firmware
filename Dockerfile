@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
   zlib1g-dev \
   gawk \
   bc \
-  cpio \ 
+  cpio \
   file \
   flex \
   quilt \
@@ -20,11 +20,8 @@ RUN apt-get update && apt-get install -y \
   ecj \
   cvs \
   unzip \
-  lib32z1 \
-  lib32z1-dev \
-  lib32stdc++6 \
+  libz1 \
   libstdc++6 \
-  libncurses-dev \
   u-boot-tools \
   mkbootimg \
   && rm -rf /var/lib/apt/lists/*
